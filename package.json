@@ -18,6 +18,8 @@
   "homepage": "https://github.com/adminixio/adminix-landing#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.6.0",
     "vue": "^2.6.12"
   }
 }
