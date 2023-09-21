@@ -367,18 +367,13 @@
   </div>
 </footer>
 
-  <div class="card cookie-popup shadow rounded py-3 px-4" id="cookie-popup">
-  <p class="text-muted mb-0">This website uses cookies to provide you with a great user experience. By using it, you
-    accept our <a href="/privacy-policy#cookie" target="_blank" class="h6">use of cookies</a></p>
-
-  <div class="pt-2">
-    <a href="javascript:void(0)" class="btn btn-pills btn-primary btn-sm accept" id="approve-cookies-button">Approve</a>
-    <a href="javascript:void(0)" class="btn btn-pills btn-secondary btn-sm cookie-popup-actions text-end"
-      id="decline-cookies-button">Decline</a>
-  </div>
-
-  <div class="cookie-popup-actions text-end">
-    <button><i class="uil uil-times text-dark fs-4" id="cookie-popup-close"></i></button>
+  <div id="cookie-popup" class="card cookie-popup cookie-popup-accepted shadow rounded py-3 px-4">
+  <p class="text-muted mb-0 text-center">This website uses cookies to provide you with a great user experience. By
+    using it, you
+    accept our <a href="/cookies" target="_blank" class="text-success h6 d-inline-block">use of
+      cookies</a></p>
+  <div id="cookie-popup-close" class="cookie-popup-actions text-end">
+    <button><i class="uil uil-times text-dark fs-4"></i></button>
   </div>
 </div>
 
